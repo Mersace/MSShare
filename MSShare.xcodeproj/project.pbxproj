@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42B2B4E1EBA1B2B0072ADE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42B2B4D1EBA1B2B0072ADE2 /* Assets.xcassets */; };
+		C42B2B5C1EBA1B2B0072ADE2 /* MSShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B5B1EBA1B2B0072ADE2 /* MSShareTests.m */; };
+		C42B2B671EBA1B2B0072ADE2 /* MSShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B661EBA1B2B0072ADE2 /* MSShareUITests.m */; };
+		C42B2B7C1EBA1B990072ADE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B771EBA1B990072ADE2 /* AppDelegate.m */; };
+		C42B2B7E1EBA1B990072ADE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B791EBA1B990072ADE2 /* main.m */; };
+		C42B2B821EBA1BF30072ADE2 /* MSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B811EBA1BF30072ADE2 /* MSTabBarController.m */; };
+		C42B2B841EBA1CC50072ADE2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C42B2B831EBA1CC50072ADE2 /* Info.plist */; };
+		C42B2B9D1EBA209B0072ADE2 /* MSEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B9C1EBA209B0072ADE2 /* MSEssenceViewController.m */; };
+		C42B2BA31EBA20B70072ADE2 /* MSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2BA21EBA20B70072ADE2 /* MSMeViewController.m */; };
+		C42B2BA61EBA20C50072ADE2 /* MSNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2BA51EBA20C50072ADE2 /* MSNewViewController.m */; };
+		C42B2BAC1EBA215C0072ADE2 /* MSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2BAB1EBA215C0072ADE2 /* MSNavigationController.m */; };
+		C44535FE1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C44535FD1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m */; };
+		C48FF5981EBB567300D67D0D /* MSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FF5971EBB567300D67D0D /* MSTabBar.m */; };
+		C48FF59F1EBB5DE100D67D0D /* UIView+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FF59E1EBB5DE100D67D0D /* UIView+MSExtension.m */; };
+		C48FF5A21EBB643C00D67D0D /* MSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FF5A11EBB643C00D67D0D /* MSSettingViewController.m */; };
+		C4D0A7E71EC1B43600056F92 /* MSRecommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D0A7E61EC1B43600056F92 /* MSRecommandViewController.m */; };
+		C4D0A7EB1EC1B6E200056F92 /* MSLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D0A7E91EC1B6E200056F92 /* MSLoginRegisterViewController.m */; };
+		C4D0A7EC1EC1B6E200056F92 /* MSLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4D0A7EA1EC1B6E200056F92 /* MSLoginRegisterViewController.xib */; };
+		C4D0A7EF1EC1BAC800056F92 /* MSFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D0A7EE1EC1BAC800056F92 /* MSFollowViewController.m */; };
+		C4D0A7F21EC1BDCB00056F92 /* MSQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D0A7F11EC1BDCB00056F92 /* MSQuickLoginButton.m */; };
+		C4FF4D121EC064DD00123DDB /* UIImage+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF4D111EC064DD00123DDB /* UIImage+MSExtension.m */; };
+		C4FF4D1C1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF4D1B1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C42B2B581EBA1B2B0072ADE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42B2B361EBA1B2B0072ADE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42B2B3D1EBA1B2B0072ADE2;
+			remoteInfo = MSShare;
+		};
+		C42B2B631EBA1B2B0072ADE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42B2B361EBA1B2B0072ADE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42B2B3D1EBA1B2B0072ADE2;
+			remoteInfo = MSShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C42B2B3E1EBA1B2B0072ADE2 /* MSShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42B2B4D1EBA1B2B0072ADE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C42B2B571EBA1B2B0072ADE2 /* MSShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42B2B5B1EBA1B2B0072ADE2 /* MSShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSShareTests.m; sourceTree = "<group>"; };
+		C42B2B5D1EBA1B2B0072ADE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42B2B621EBA1B2B0072ADE2 /* MSShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42B2B661EBA1B2B0072ADE2 /* MSShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSShareUITests.m; sourceTree = "<group>"; };
+		C42B2B681EBA1B2B0072ADE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42B2B761EBA1B990072ADE2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C42B2B771EBA1B990072ADE2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C42B2B791EBA1B990072ADE2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C42B2B801EBA1BF30072ADE2 /* MSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSTabBarController.h; path = ../MSTabBarController.h; sourceTree = "<group>"; };
+		C42B2B811EBA1BF30072ADE2 /* MSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSTabBarController.m; path = ../MSTabBarController.m; sourceTree = "<group>"; };
+		C42B2B831EBA1CC50072ADE2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42B2B9B1EBA209B0072ADE2 /* MSEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEssenceViewController.h; sourceTree = "<group>"; };
+		C42B2B9C1EBA209B0072ADE2 /* MSEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEssenceViewController.m; sourceTree = "<group>"; };
+		C42B2BA11EBA20B70072ADE2 /* MSMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMeViewController.h; sourceTree = "<group>"; };
+		C42B2BA21EBA20B70072ADE2 /* MSMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMeViewController.m; sourceTree = "<group>"; };
+		C42B2BA41EBA20C50072ADE2 /* MSNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSNewViewController.h; sourceTree = "<group>"; };
+		C42B2BA51EBA20C50072ADE2 /* MSNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSNewViewController.m; sourceTree = "<group>"; };
+		C42B2BAA1EBA215C0072ADE2 /* MSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSNavigationController.h; path = ../MSNavigationController.h; sourceTree = "<group>"; };
+		C42B2BAB1EBA215C0072ADE2 /* MSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSNavigationController.m; path = ../MSNavigationController.m; sourceTree = "<group>"; };
+		C44535FC1ECF2F0E00CDF75D /* MSLoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLoginRegisterTextField.h; sourceTree = "<group>"; };
+		C44535FD1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLoginRegisterTextField.m; sourceTree = "<group>"; };
+		C48FF5921EBB4B6900D67D0D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C48FF5961EBB567300D67D0D /* MSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTabBar.h; sourceTree = "<group>"; };
+		C48FF5971EBB567300D67D0D /* MSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTabBar.m; sourceTree = "<group>"; };
+		C48FF59D1EBB5DE100D67D0D /* UIView+MSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MSExtension.h"; sourceTree = "<group>"; };
+		C48FF59E1EBB5DE100D67D0D /* UIView+MSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MSExtension.m"; sourceTree = "<group>"; };
+		C48FF5A01EBB643C00D67D0D /* MSSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSettingViewController.h; sourceTree = "<group>"; };
+		C48FF5A11EBB643C00D67D0D /* MSSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSettingViewController.m; sourceTree = "<group>"; };
+		C4D0A7E51EC1B43600056F92 /* MSRecommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRecommandViewController.h; sourceTree = "<group>"; };
+		C4D0A7E61EC1B43600056F92 /* MSRecommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRecommandViewController.m; sourceTree = "<group>"; };
+		C4D0A7E81EC1B6E200056F92 /* MSLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLoginRegisterViewController.h; sourceTree = "<group>"; };
+		C4D0A7E91EC1B6E200056F92 /* MSLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLoginRegisterViewController.m; sourceTree = "<group>"; };
+		C4D0A7EA1EC1B6E200056F92 /* MSLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		C4D0A7ED1EC1BAC800056F92 /* MSFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFollowViewController.h; sourceTree = "<group>"; };
+		C4D0A7EE1EC1BAC800056F92 /* MSFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFollowViewController.m; sourceTree = "<group>"; };
+		C4D0A7F01EC1BDCB00056F92 /* MSQuickLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSQuickLoginButton.h; sourceTree = "<group>"; };
+		C4D0A7F11EC1BDCB00056F92 /* MSQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSQuickLoginButton.m; sourceTree = "<group>"; };
+		C4FF4D101EC064DD00123DDB /* UIImage+MSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MSExtension.h"; sourceTree = "<group>"; };
+		C4FF4D111EC064DD00123DDB /* UIImage+MSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MSExtension.m"; sourceTree = "<group>"; };
+		C4FF4D1A1EC06B7600123DDB /* UIBarButtonItem+MSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MSExtension.h"; sourceTree = "<group>"; };
+		C4FF4D1B1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MSExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42B2B3B1EBA1B2B0072ADE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B2B541EBA1B2B0072ADE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B2B5F1EBA1B2B0072ADE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42B2B351EBA1B2B0072ADE2 = {
+			isa = PBXGroup;
+			children = (
+				C42B2B401EBA1B2B0072ADE2 /* MSShare */,
+				C42B2B5A1EBA1B2B0072ADE2 /* MSShareTests */,
+				C42B2B651EBA1B2B0072ADE2 /* MSShareUITests */,
+				C42B2B3F1EBA1B2B0072ADE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C42B2B3F1EBA1B2B0072ADE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B3E1EBA1B2B0072ADE2 /* MSShare.app */,
+				C42B2B571EBA1B2B0072ADE2 /* MSShareTests.xctest */,
+				C42B2B621EBA1B2B0072ADE2 /* MSShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C42B2B401EBA1B2B0072ADE2 /* MSShare */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B741EBA1B990072ADE2 /* Classes */,
+				C42B2B751EBA1B990072ADE2 /* Others */,
+				C42B2B4D1EBA1B2B0072ADE2 /* Assets.xcassets */,
+				C42B2B411EBA1B2B0072ADE2 /* Supporting Files */,
+			);
+			path = MSShare;
+			sourceTree = "<group>";
+		};
+		C42B2B411EBA1B2B0072ADE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C42B2B5A1EBA1B2B0072ADE2 /* MSShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B5B1EBA1B2B0072ADE2 /* MSShareTests.m */,
+				C42B2B5D1EBA1B2B0072ADE2 /* Info.plist */,
+			);
+			path = MSShareTests;
+			sourceTree = "<group>";
+		};
+		C42B2B651EBA1B2B0072ADE2 /* MSShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B661EBA1B2B0072ADE2 /* MSShareUITests.m */,
+				C42B2B681EBA1B2B0072ADE2 /* Info.plist */,
+			);
+			path = MSShareUITests;
+			sourceTree = "<group>";
+		};
+		C42B2B741EBA1B990072ADE2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B871EBA20000072ADE2 /* Essence */,
+				C42B2B931EBA20000072ADE2 /* New */,
+				C42B2B8B1EBA20000072ADE2 /* Follow */,
+				C42B2B8F1EBA20000072ADE2 /* Me */,
+				C42B2B971EBA20000072ADE2 /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C42B2B751EBA1B990072ADE2 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C48FF5991EBB5D7400D67D0D /* Category */,
+				C48FF5931EBB4F9F00D67D0D /* Controller */,
+				C48FF5941EBB4F9F00D67D0D /* Model */,
+				C48FF5951EBB4F9F00D67D0D /* View */,
+				C42B2B761EBA1B990072ADE2 /* AppDelegate.h */,
+				C42B2B771EBA1B990072ADE2 /* AppDelegate.m */,
+				C42B2B791EBA1B990072ADE2 /* main.m */,
+				C42B2B831EBA1CC50072ADE2 /* Info.plist */,
+				C48FF5921EBB4B6900D67D0D /* PrefixHeader.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C42B2B871EBA20000072ADE2 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B881EBA20000072ADE2 /* Controller */,
+				C42B2B891EBA20000072ADE2 /* Model */,
+				C42B2B8A1EBA20000072ADE2 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		C42B2B881EBA20000072ADE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B9B1EBA209B0072ADE2 /* MSEssenceViewController.h */,
+				C42B2B9C1EBA209B0072ADE2 /* MSEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C42B2B891EBA20000072ADE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C42B2B8A1EBA20000072ADE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C42B2B8B1EBA20000072ADE2 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B8C1EBA20000072ADE2 /* Controller */,
+				C42B2B8D1EBA20000072ADE2 /* Model */,
+				C42B2B8E1EBA20000072ADE2 /* View */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		C42B2B8C1EBA20000072ADE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4D0A7ED1EC1BAC800056F92 /* MSFollowViewController.h */,
+				C4D0A7EE1EC1BAC800056F92 /* MSFollowViewController.m */,
+				C4D0A7E51EC1B43600056F92 /* MSRecommandViewController.h */,
+				C4D0A7E61EC1B43600056F92 /* MSRecommandViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C42B2B8D1EBA20000072ADE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C42B2B8E1EBA20000072ADE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C42B2B8F1EBA20000072ADE2 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B901EBA20000072ADE2 /* Controller */,
+				C42B2B911EBA20000072ADE2 /* Model */,
+				C42B2B921EBA20000072ADE2 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		C42B2B901EBA20000072ADE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2BA11EBA20B70072ADE2 /* MSMeViewController.h */,
+				C42B2BA21EBA20B70072ADE2 /* MSMeViewController.m */,
+				C48FF5A01EBB643C00D67D0D /* MSSettingViewController.h */,
+				C48FF5A11EBB643C00D67D0D /* MSSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C42B2B911EBA20000072ADE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C42B2B921EBA20000072ADE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C42B2B931EBA20000072ADE2 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B941EBA20000072ADE2 /* Controller */,
+				C42B2B951EBA20000072ADE2 /* Model */,
+				C42B2B961EBA20000072ADE2 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		C42B2B941EBA20000072ADE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2BA41EBA20C50072ADE2 /* MSNewViewController.h */,
+				C42B2BA51EBA20C50072ADE2 /* MSNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C42B2B951EBA20000072ADE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C42B2B961EBA20000072ADE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C42B2B971EBA20000072ADE2 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B981EBA20000072ADE2 /* Controller */,
+				C42B2B991EBA20000072ADE2 /* Model */,
+				C42B2B9A1EBA20000072ADE2 /* View */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C42B2B981EBA20000072ADE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C42B2B991EBA20000072ADE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C42B2B9A1EBA20000072ADE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C48FF5931EBB4F9F00D67D0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C42B2B801EBA1BF30072ADE2 /* MSTabBarController.h */,
+				C42B2B811EBA1BF30072ADE2 /* MSTabBarController.m */,
+				C42B2BAA1EBA215C0072ADE2 /* MSNavigationController.h */,
+				C42B2BAB1EBA215C0072ADE2 /* MSNavigationController.m */,
+				C4D0A7E81EC1B6E200056F92 /* MSLoginRegisterViewController.h */,
+				C4D0A7E91EC1B6E200056F92 /* MSLoginRegisterViewController.m */,
+				C4D0A7EA1EC1B6E200056F92 /* MSLoginRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C48FF5941EBB4F9F00D67D0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C48FF5951EBB4F9F00D67D0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C48FF5961EBB567300D67D0D /* MSTabBar.h */,
+				C48FF5971EBB567300D67D0D /* MSTabBar.m */,
+				C4D0A7F01EC1BDCB00056F92 /* MSQuickLoginButton.h */,
+				C4D0A7F11EC1BDCB00056F92 /* MSQuickLoginButton.m */,
+				C44535FC1ECF2F0E00CDF75D /* MSLoginRegisterTextField.h */,
+				C44535FD1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C48FF5991EBB5D7400D67D0D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C48FF59D1EBB5DE100D67D0D /* UIView+MSExtension.h */,
+				C48FF59E1EBB5DE100D67D0D /* UIView+MSExtension.m */,
+				C4FF4D101EC064DD00123DDB /* UIImage+MSExtension.h */,
+				C4FF4D111EC064DD00123DDB /* UIImage+MSExtension.m */,
+				C4FF4D1A1EC06B7600123DDB /* UIBarButtonItem+MSExtension.h */,
+				C4FF4D1B1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C42B2B3D1EBA1B2B0072ADE2 /* MSShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42B2B6B1EBA1B2B0072ADE2 /* Build configuration list for PBXNativeTarget "MSShare" */;
+			buildPhases = (
+				C42B2B3A1EBA1B2B0072ADE2 /* Sources */,
+				C42B2B3B1EBA1B2B0072ADE2 /* Frameworks */,
+				C42B2B3C1EBA1B2B0072ADE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSShare;
+			productName = MSShare;
+			productReference = C42B2B3E1EBA1B2B0072ADE2 /* MSShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C42B2B561EBA1B2B0072ADE2 /* MSShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42B2B6E1EBA1B2B0072ADE2 /* Build configuration list for PBXNativeTarget "MSShareTests" */;
+			buildPhases = (
+				C42B2B531EBA1B2B0072ADE2 /* Sources */,
+				C42B2B541EBA1B2B0072ADE2 /* Frameworks */,
+				C42B2B551EBA1B2B0072ADE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42B2B591EBA1B2B0072ADE2 /* PBXTargetDependency */,
+			);
+			name = MSShareTests;
+			productName = MSShareTests;
+			productReference = C42B2B571EBA1B2B0072ADE2 /* MSShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C42B2B611EBA1B2B0072ADE2 /* MSShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42B2B711EBA1B2B0072ADE2 /* Build configuration list for PBXNativeTarget "MSShareUITests" */;
+			buildPhases = (
+				C42B2B5E1EBA1B2B0072ADE2 /* Sources */,
+				C42B2B5F1EBA1B2B0072ADE2 /* Frameworks */,
+				C42B2B601EBA1B2B0072ADE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42B2B641EBA1B2B0072ADE2 /* PBXTargetDependency */,
+			);
+			name = MSShareUITests;
+			productName = MSShareUITests;
+			productReference = C42B2B621EBA1B2B0072ADE2 /* MSShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C42B2B361EBA1B2B0072ADE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MS;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ashscar;
+				TargetAttributes = {
+					C42B2B3D1EBA1B2B0072ADE2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5942ZL2RA2;
+						ProvisioningStyle = Automatic;
+					};
+					C42B2B561EBA1B2B0072ADE2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5942ZL2RA2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C42B2B3D1EBA1B2B0072ADE2;
+					};
+					C42B2B611EBA1B2B0072ADE2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5942ZL2RA2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C42B2B3D1EBA1B2B0072ADE2;
+					};
+				};
+			};
+			buildConfigurationList = C42B2B391EBA1B2B0072ADE2 /* Build configuration list for PBXProject "MSShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C42B2B351EBA1B2B0072ADE2;
+			productRefGroup = C42B2B3F1EBA1B2B0072ADE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C42B2B3D1EBA1B2B0072ADE2 /* MSShare */,
+				C42B2B561EBA1B2B0072ADE2 /* MSShareTests */,
+				C42B2B611EBA1B2B0072ADE2 /* MSShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C42B2B3C1EBA1B2B0072ADE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D0A7EC1EC1B6E200056F92 /* MSLoginRegisterViewController.xib in Resources */,
+				C42B2B4E1EBA1B2B0072ADE2 /* Assets.xcassets in Resources */,
+				C42B2B841EBA1CC50072ADE2 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B2B551EBA1B2B0072ADE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B2B601EBA1B2B0072ADE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42B2B3A1EBA1B2B0072ADE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42B2BA31EBA20B70072ADE2 /* MSMeViewController.m in Sources */,
+				C4D0A7F21EC1BDCB00056F92 /* MSQuickLoginButton.m in Sources */,
+				C48FF59F1EBB5DE100D67D0D /* UIView+MSExtension.m in Sources */,
+				C48FF5A21EBB643C00D67D0D /* MSSettingViewController.m in Sources */,
+				C42B2B7E1EBA1B990072ADE2 /* main.m in Sources */,
+				C42B2B9D1EBA209B0072ADE2 /* MSEssenceViewController.m in Sources */,
+				C4D0A7E71EC1B43600056F92 /* MSRecommandViewController.m in Sources */,
+				C4D0A7EB1EC1B6E200056F92 /* MSLoginRegisterViewController.m in Sources */,
+				C4FF4D121EC064DD00123DDB /* UIImage+MSExtension.m in Sources */,
+				C44535FE1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m in Sources */,
+				C42B2BA61EBA20C50072ADE2 /* MSNewViewController.m in Sources */,
+				C48FF5981EBB567300D67D0D /* MSTabBar.m in Sources */,
+				C42B2B821EBA1BF30072ADE2 /* MSTabBarController.m in Sources */,
+				C42B2BAC1EBA215C0072ADE2 /* MSNavigationController.m in Sources */,
+				C4D0A7EF1EC1BAC800056F92 /* MSFollowViewController.m in Sources */,
+				C42B2B7C1EBA1B990072ADE2 /* AppDelegate.m in Sources */,
+				C4FF4D1C1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B2B531EBA1B2B0072ADE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42B2B5C1EBA1B2B0072ADE2 /* MSShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B2B5E1EBA1B2B0072ADE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42B2B671EBA1B2B0072ADE2 /* MSShareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C42B2B591EBA1B2B0072ADE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42B2B3D1EBA1B2B0072ADE2 /* MSShare */;
+			targetProxy = C42B2B581EBA1B2B0072ADE2 /* PBXContainerItemProxy */;
+		};
+		C42B2B641EBA1B2B0072ADE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42B2B3D1EBA1B2B0072ADE2 /* MSShare */;
+			targetProxy = C42B2B631EBA1B2B0072ADE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C42B2B691EBA1B2B0072ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C42B2B6A1EBA1B2B0072ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C42B2B6C1EBA1B2B0072ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5942ZL2RA2;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Mersace/Documents/Demo/MSTinyShare/MSShare/MSShare/Others/PrefixHeader.pch;
+				INFOPLIST_FILE = MSShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ashscar.MSShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C42B2B6D1EBA1B2B0072ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5942ZL2RA2;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Mersace/Documents/Demo/MSTinyShare/MSShare/MSShare/Others/PrefixHeader.pch;
+				INFOPLIST_FILE = MSShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ashscar.MSShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C42B2B6F1EBA1B2B0072ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5942ZL2RA2;
+				INFOPLIST_FILE = MSShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ashscar.MSShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSShare.app/MSShare";
+			};
+			name = Debug;
+		};
+		C42B2B701EBA1B2B0072ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5942ZL2RA2;
+				INFOPLIST_FILE = MSShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ashscar.MSShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSShare.app/MSShare";
+			};
+			name = Release;
+		};
+		C42B2B721EBA1B2B0072ADE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5942ZL2RA2;
+				INFOPLIST_FILE = MSShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ashscar.MSShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MSShare;
+			};
+			name = Debug;
+		};
+		C42B2B731EBA1B2B0072ADE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5942ZL2RA2;
+				INFOPLIST_FILE = MSShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ashscar.MSShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MSShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42B2B391EBA1B2B0072ADE2 /* Build configuration list for PBXProject "MSShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42B2B691EBA1B2B0072ADE2 /* Debug */,
+				C42B2B6A1EBA1B2B0072ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42B2B6B1EBA1B2B0072ADE2 /* Build configuration list for PBXNativeTarget "MSShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42B2B6C1EBA1B2B0072ADE2 /* Debug */,
+				C42B2B6D1EBA1B2B0072ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42B2B6E1EBA1B2B0072ADE2 /* Build configuration list for PBXNativeTarget "MSShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42B2B6F1EBA1B2B0072ADE2 /* Debug */,
+				C42B2B701EBA1B2B0072ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42B2B711EBA1B2B0072ADE2 /* Build configuration list for PBXNativeTarget "MSShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42B2B721EBA1B2B0072ADE2 /* Debug */,
+				C42B2B731EBA1B2B0072ADE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C42B2B361EBA1B2B0072ADE2 /* Project object */;
+}

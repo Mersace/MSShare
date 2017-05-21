@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  MSShare
+//
+//  Created by Ashscar on 17/5/4.
+//  Copyright © 2017年 Ashscar. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+/*********** 日志 ************/
+#import "UIView+MSExtension.h"
+#import "UIBarButtonItem+MSExtension.h"
+#if DEBUG
+#define MSLog(...) NSLog(__VA_ARGS__)
+#else
+#define MSLog(...)
+#endif
+
+#define MSFunc NSLog(@"%s",__func__);
+/*********** 颜色 ************/
+#define MSColorAlpha(r,g,b,a)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define MSColor(r,g,b)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define MSRandomColor MSColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define MSCommonBGColor MSColor(206,206,206)
+#endif
+
+#endif /* PrefixHeader_pch */
