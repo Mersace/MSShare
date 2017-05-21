@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		26C2118E8E6E3091BDF98800 /* libPods-MSShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B9C27CCCB8E0E165AA7393 /* libPods-MSShare.a */; };
+		C41F43D41ED1C59600D9C599 /* MSConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F43D31ED1C59600D9C599 /* MSConst.m */; };
+		C41F43D71ED1C60600D9C599 /* MSMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F43D61ED1C60600D9C599 /* MSMeFooterView.m */; };
+		C41F43DA1ED1C65A00D9C599 /* MSMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F43D91ED1C65A00D9C599 /* MSMeSquare.m */; };
 		C42B2B4E1EBA1B2B0072ADE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42B2B4D1EBA1B2B0072ADE2 /* Assets.xcassets */; };
 		C42B2B5C1EBA1B2B0072ADE2 /* MSShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B5B1EBA1B2B0072ADE2 /* MSShareTests.m */; };
 		C42B2B671EBA1B2B0072ADE2 /* MSShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B661EBA1B2B0072ADE2 /* MSShareUITests.m */; };
@@ -52,6 +55,12 @@
 /* Begin PBXFileReference section */
 		1F5B7CD5507C568471E62E55 /* Pods-MSShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSShare/Pods-MSShare.release.xcconfig"; sourceTree = "<group>"; };
 		A9B9C27CCCB8E0E165AA7393 /* libPods-MSShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41F43D21ED1C59600D9C599 /* MSConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConst.h; sourceTree = "<group>"; };
+		C41F43D31ED1C59600D9C599 /* MSConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSConst.m; sourceTree = "<group>"; };
+		C41F43D51ED1C60600D9C599 /* MSMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMeFooterView.h; path = MSShare/Others/MSMeFooterView.h; sourceTree = SOURCE_ROOT; };
+		C41F43D61ED1C60600D9C599 /* MSMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMeFooterView.m; path = MSShare/Others/MSMeFooterView.m; sourceTree = SOURCE_ROOT; };
+		C41F43D81ED1C65A00D9C599 /* MSMeSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMeSquare.h; path = MSShare/Others/MSMeSquare.h; sourceTree = SOURCE_ROOT; };
+		C41F43D91ED1C65A00D9C599 /* MSMeSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMeSquare.m; path = MSShare/Others/MSMeSquare.m; sourceTree = SOURCE_ROOT; };
 		C42B2B3E1EBA1B2B0072ADE2 /* MSShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42B2B4D1EBA1B2B0072ADE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C42B2B571EBA1B2B0072ADE2 /* MSShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +233,8 @@
 				C42B2B791EBA1B990072ADE2 /* main.m */,
 				C42B2B831EBA1CC50072ADE2 /* Info.plist */,
 				C48FF5921EBB4B6900D67D0D /* PrefixHeader.pch */,
+				C41F43D21ED1C59600D9C599 /* MSConst.h */,
+				C41F43D31ED1C59600D9C599 /* MSConst.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -320,6 +331,8 @@
 		C42B2B911EBA20000072ADE2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C41F43D81ED1C65A00D9C599 /* MSMeSquare.h */,
+				C41F43D91ED1C65A00D9C599 /* MSMeSquare.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -327,6 +340,8 @@
 		C42B2B921EBA20000072ADE2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C41F43D51ED1C60600D9C599 /* MSMeFooterView.h */,
+				C41F43D61ED1C60600D9C599 /* MSMeFooterView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -637,11 +652,14 @@
 				C42B2B7E1EBA1B990072ADE2 /* main.m in Sources */,
 				C42B2B9D1EBA209B0072ADE2 /* MSEssenceViewController.m in Sources */,
 				C4D0A7E71EC1B43600056F92 /* MSRecommandViewController.m in Sources */,
+				C41F43D71ED1C60600D9C599 /* MSMeFooterView.m in Sources */,
+				C41F43D41ED1C59600D9C599 /* MSConst.m in Sources */,
 				C4D0A7EB1EC1B6E200056F92 /* MSLoginRegisterViewController.m in Sources */,
 				C4FF4D121EC064DD00123DDB /* UIImage+MSExtension.m in Sources */,
 				C44535FE1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m in Sources */,
 				C42B2BA61EBA20C50072ADE2 /* MSNewViewController.m in Sources */,
 				C48FF5981EBB567300D67D0D /* MSTabBar.m in Sources */,
+				C41F43DA1ED1C65A00D9C599 /* MSMeSquare.m in Sources */,
 				C42B2B821EBA1BF30072ADE2 /* MSTabBarController.m in Sources */,
 				C42B2BAC1EBA215C0072ADE2 /* MSNavigationController.m in Sources */,
 				C4D0A7EF1EC1BAC800056F92 /* MSFollowViewController.m in Sources */,
@@ -781,6 +799,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/Mersace/Documents/Demo/MSTinyShare/MSShare/MSShare/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = MSShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ashscar.MSShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -798,6 +817,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/Mersace/Documents/Demo/MSTinyShare/MSShare/MSShare/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = MSShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ashscar.MSShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
