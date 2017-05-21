@@ -14,9 +14,14 @@
 
 @implementation MSMeViewController
 
+//在init方法中设置tabbleview的样式
+- (instancetype)init {
+    return [self initWithStyle:UITableViewStyleGrouped];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = MSRandomColor;
+    self.view.backgroundColor = MSCommonBGColor;
     // 标题
     self.navigationItem.title = @"我的";
 //    // 右边-设置
@@ -51,14 +56,36 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark -- <UITableViewDataSource> start --
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 3;
 }
-*/
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    //设置cell标识
+    static NSString *ID = @"cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    }
+    cell.backgroundColor = [UIColor whiteColor];
+    return cell;
+}
+#pragma mark -- <UITableViewDataSource> end  --
+
+
+#pragma mark -- <UITableViewDelegate> start --
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 2) {
+        return 200;
+    }
+    return 44;
+}
+
+
+#pragma mark -- <UITableViewDelegate> end  --
 @end

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MSMeViewController : UIViewController
+@interface MSMeViewController : UITableViewController
 
 @end

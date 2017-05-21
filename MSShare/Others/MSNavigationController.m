@@ -46,6 +46,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     MSLog(@"%zd", self.childViewControllers.count);//1
+    [super viewWillAppear:animated];
 }
 
 // 返回

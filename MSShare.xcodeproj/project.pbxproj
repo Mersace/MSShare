@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26C2118E8E6E3091BDF98800 /* libPods-MSShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B9C27CCCB8E0E165AA7393 /* libPods-MSShare.a */; };
 		C42B2B4E1EBA1B2B0072ADE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42B2B4D1EBA1B2B0072ADE2 /* Assets.xcassets */; };
 		C42B2B5C1EBA1B2B0072ADE2 /* MSShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B5B1EBA1B2B0072ADE2 /* MSShareTests.m */; };
 		C42B2B671EBA1B2B0072ADE2 /* MSShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B661EBA1B2B0072ADE2 /* MSShareUITests.m */; };
@@ -49,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F5B7CD5507C568471E62E55 /* Pods-MSShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSShare/Pods-MSShare.release.xcconfig"; sourceTree = "<group>"; };
+		A9B9C27CCCB8E0E165AA7393 /* libPods-MSShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42B2B3E1EBA1B2B0072ADE2 /* MSShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42B2B4D1EBA1B2B0072ADE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C42B2B571EBA1B2B0072ADE2 /* MSShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +96,7 @@
 		C4FF4D111EC064DD00123DDB /* UIImage+MSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MSExtension.m"; sourceTree = "<group>"; };
 		C4FF4D1A1EC06B7600123DDB /* UIBarButtonItem+MSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MSExtension.h"; sourceTree = "<group>"; };
 		C4FF4D1B1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MSExtension.m"; sourceTree = "<group>"; };
+		F24AC816C49991D9E0393B57 /* Pods-MSShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSShare/Pods-MSShare.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C2118E8E6E3091BDF98800 /* libPods-MSShare.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +125,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65E31FD3EF55B342C012D72C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B9C27CCCB8E0E165AA7393 /* libPods-MSShare.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0D14A4EEFCD00643F06B0B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F24AC816C49991D9E0393B57 /* Pods-MSShare.debug.xcconfig */,
+				1F5B7CD5507C568471E62E55 /* Pods-MSShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C42B2B351EBA1B2B0072ADE2 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +149,8 @@
 				C42B2B5A1EBA1B2B0072ADE2 /* MSShareTests */,
 				C42B2B651EBA1B2B0072ADE2 /* MSShareUITests */,
 				C42B2B3F1EBA1B2B0072ADE2 /* Products */,
+				A0D14A4EEFCD00643F06B0B6 /* Pods */,
+				65E31FD3EF55B342C012D72C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -425,9 +449,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C42B2B6B1EBA1B2B0072ADE2 /* Build configuration list for PBXNativeTarget "MSShare" */;
 			buildPhases = (
+				535644EBB6EEACA6AB26AC60 /* [CP] Check Pods Manifest.lock */,
 				C42B2B3A1EBA1B2B0072ADE2 /* Sources */,
 				C42B2B3B1EBA1B2B0072ADE2 /* Frameworks */,
 				C42B2B3C1EBA1B2B0072ADE2 /* Resources */,
+				B2190F11962A7F72C31704C3 /* [CP] Embed Pods Frameworks */,
+				DF84B3CE017874E292CD3927 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -549,6 +576,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		535644EBB6EEACA6AB26AC60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2190F11962A7F72C31704C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSShare/Pods-MSShare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF84B3CE017874E292CD3927 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSShare/Pods-MSShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C42B2B3A1EBA1B2B0072ADE2 /* Sources */ = {
@@ -697,6 +772,7 @@
 		};
 		C42B2B6C1EBA1B2B0072ADE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24AC816C49991D9E0393B57 /* Pods-MSShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -713,6 +789,7 @@
 		};
 		C42B2B6D1EBA1B2B0072ADE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5B7CD5507C568471E62E55 /* Pods-MSShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
