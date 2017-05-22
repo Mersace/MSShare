@@ -11,6 +11,8 @@
 #import <AFNetworking.h>
 #import <MJExtension.h>
 #import <UIButton+WebCache.h>
+#import "MSMeSquareButton.h"
+
 
 @implementation MSMeFooterView
 
@@ -54,7 +56,7 @@
         MSMeSquare *square = squares[i];
         
         // 创建按钮
-        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        MSMeSquareButton *button = [MSMeSquareButton buttonWithType:UIButtonTypeCustom];
         [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:button];
         
@@ -65,10 +67,7 @@
         button.ms_height = buttonH;
         
         // 设置数据
-        //        button.backgroundColor = XMGRandomColor;
-        [button setTitle:square.name forState:UIControlStateNormal];
-        [button sd_setImageWithURL:[NSURL URLWithString:square.icon] forState:UIControlStateNormal placeholderImage:[UIImage imageNamed:@"setup-head-default"]];
-        
+        button.square = square;
         //        [button.imageView sd_setImageWithURL:[NSURL URLWithString:square.icon] placeholderImage:[UIImage imageNamed:@"setup-head-default"]];
         
         //        [button setImage:[UIImage imageNamed:@"setup-head-default"] forState:UIControlStateNormal];
@@ -76,6 +75,15 @@
         //            [button setImage:image forState:UIControlStateNormal];
         //        }];
     }
+    // 设置footer的高度 == 最后一个按钮的bottom(最大Y值)
+    self.ms_height = self.subviews.lastObject.ms_bottom;
+    
+    // 设置tableView的contentSize
+    UITableView *tableView = (UITableView *)self.superview;
+    tableView.tableFooterView = self;
+    [tableView reloadData]; // 重新刷新数据(会重新计算contentSize)
+    //    tableView.contentSize = CGSizeMake(0, self.xmg_bottom); // 不靠谱
+    
 }
 
 - (void)buttonClick:(UIButton *)button

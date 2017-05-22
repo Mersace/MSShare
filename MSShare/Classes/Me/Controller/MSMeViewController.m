@@ -9,6 +9,7 @@
 #import "MSMeViewController.h"
 #import "MSSettingViewController.h"
 #import "MSMeFooterView.h"
+#import "MSMeCell.h"
 @interface MSMeViewController ()
 
 @end
@@ -88,9 +89,9 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     //设置cell标识
     static NSString *ID = @"cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    MSMeCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+        cell = [[MSMeCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
     }
     // 4.设置数据
     if (indexPath.section == 0) {

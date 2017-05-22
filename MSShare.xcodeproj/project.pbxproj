@@ -23,6 +23,8 @@
 		C42B2BA61EBA20C50072ADE2 /* MSNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2BA51EBA20C50072ADE2 /* MSNewViewController.m */; };
 		C42B2BAC1EBA215C0072ADE2 /* MSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2BAB1EBA215C0072ADE2 /* MSNavigationController.m */; };
 		C44535FE1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C44535FD1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m */; };
+		C47BF0681ED2F70300A43B7F /* MSMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF0671ED2F70300A43B7F /* MSMeCell.m */; };
+		C47BF06B1ED2F7F500A43B7F /* MSMeSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF06A1ED2F7F500A43B7F /* MSMeSquareButton.m */; };
 		C48FF5981EBB567300D67D0D /* MSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FF5971EBB567300D67D0D /* MSTabBar.m */; };
 		C48FF59F1EBB5DE100D67D0D /* UIView+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FF59E1EBB5DE100D67D0D /* UIView+MSExtension.m */; };
 		C48FF5A21EBB643C00D67D0D /* MSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FF5A11EBB643C00D67D0D /* MSSettingViewController.m */; };
@@ -85,6 +87,10 @@
 		C42B2BAB1EBA215C0072ADE2 /* MSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSNavigationController.m; path = ../MSNavigationController.m; sourceTree = "<group>"; };
 		C44535FC1ECF2F0E00CDF75D /* MSLoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLoginRegisterTextField.h; sourceTree = "<group>"; };
 		C44535FD1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLoginRegisterTextField.m; sourceTree = "<group>"; };
+		C47BF0661ED2F70300A43B7F /* MSMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMeCell.h; path = MSShare/Others/MSMeCell.h; sourceTree = SOURCE_ROOT; };
+		C47BF0671ED2F70300A43B7F /* MSMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMeCell.m; path = MSShare/Others/MSMeCell.m; sourceTree = SOURCE_ROOT; };
+		C47BF0691ED2F7F500A43B7F /* MSMeSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMeSquareButton.h; path = MSShare/Others/MSMeSquareButton.h; sourceTree = SOURCE_ROOT; };
+		C47BF06A1ED2F7F500A43B7F /* MSMeSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMeSquareButton.m; path = MSShare/Others/MSMeSquareButton.m; sourceTree = SOURCE_ROOT; };
 		C48FF5921EBB4B6900D67D0D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C48FF5961EBB567300D67D0D /* MSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTabBar.h; sourceTree = "<group>"; };
 		C48FF5971EBB567300D67D0D /* MSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTabBar.m; sourceTree = "<group>"; };
@@ -340,8 +346,12 @@
 		C42B2B921EBA20000072ADE2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C47BF0661ED2F70300A43B7F /* MSMeCell.h */,
+				C47BF0671ED2F70300A43B7F /* MSMeCell.m */,
 				C41F43D51ED1C60600D9C599 /* MSMeFooterView.h */,
 				C41F43D61ED1C60600D9C599 /* MSMeFooterView.m */,
+				C47BF0691ED2F7F500A43B7F /* MSMeSquareButton.h */,
+				C47BF06A1ED2F7F500A43B7F /* MSMeSquareButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -662,8 +672,10 @@
 				C41F43DA1ED1C65A00D9C599 /* MSMeSquare.m in Sources */,
 				C42B2B821EBA1BF30072ADE2 /* MSTabBarController.m in Sources */,
 				C42B2BAC1EBA215C0072ADE2 /* MSNavigationController.m in Sources */,
+				C47BF0681ED2F70300A43B7F /* MSMeCell.m in Sources */,
 				C4D0A7EF1EC1BAC800056F92 /* MSFollowViewController.m in Sources */,
 				C42B2B7C1EBA1B990072ADE2 /* AppDelegate.m in Sources */,
+				C47BF06B1ED2F7F500A43B7F /* MSMeSquareButton.m in Sources */,
 				C4FF4D1C1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
