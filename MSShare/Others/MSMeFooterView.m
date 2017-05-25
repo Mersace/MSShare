@@ -12,7 +12,7 @@
 #import <MJExtension.h>
 #import <UIButton+WebCache.h>
 #import "MSMeSquareButton.h"
-
+#import "MSMeWebViewController.h"
 
 @implementation MSMeFooterView
 
@@ -86,9 +86,39 @@
     
 }
 
-- (void)buttonClick:(UIButton *)button
+- (void)buttonClick:(MSMeSquareButton *)button
 {
-    MSFunc;
+    NSString *url = button.square.url;
+    
+    if ([url hasPrefix:@"http"]) { // 利用webView加载url即可
+        // 使用SFSafariViewController显示网页
+        //        SFSafariViewController *webView = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:url]];
+        //        UITabBarController *tabBarVc = (UITabBarController *)self.window.rootViewController;
+        //        [tabBarVc presentViewController:webView animated:YES completion:nil];
+        
+        
+        // 获得"我"模块对应的导航控制器
+        //        UITabBarController *tabBarVc = [UIApplication sharedApplication].keyWindow.rootViewController;
+        //        UINavigationController *nav = tabBarVc.childViewControllers.firstObject;
+        UITabBarController *tabBarVc = (UITabBarController *)self.window.rootViewController;
+        UINavigationController *nav = tabBarVc.selectedViewController;
+        
+        // 显示XMGWebViewController
+        MSMeWebViewController *webView = [[MSMeWebViewController alloc] init];
+        webView.url = url;
+        webView.navigationItem.title = button.currentTitle;
+        [nav pushViewController:webView animated:YES];
+    } else if ([url hasPrefix:@"mod"]) { // 另行处理
+        if ([url hasSuffix:@"BDJ_To_Check"]) {
+            MSLog(@"跳转到[审帖]界面");
+        } else if ([url hasSuffix:@"BDJ_To_RecentHot"]) {
+            MSLog(@"跳转到[每日排行]界面");
+        } else {
+            MSLog(@"跳转到其他界面");
+        }
+    } else {
+            MSLog(@"不是http或者mod协议的");
+    }
 }
 
 @end

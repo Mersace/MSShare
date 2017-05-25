@@ -26,7 +26,7 @@
  *  @param viewController 刚刚push进来的子控制器
  */
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    MSFunc;
+    //MSFunc;
     if (self.childViewControllers.count > 0) {
         UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [backButton setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];
@@ -45,7 +45,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
-    MSLog(@"%zd", self.childViewControllers.count);//1
+    //MSLog(@"%zd", self.childViewControllers.count);//1
     [super viewWillAppear:animated];
 }
 

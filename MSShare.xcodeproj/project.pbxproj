@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26C2118E8E6E3091BDF98800 /* libPods-MSShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B9C27CCCB8E0E165AA7393 /* libPods-MSShare.a */; };
+		C414F25C1ED6BC47002D0890 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C414F25B1ED6BC47002D0890 /* Info.plist */; };
 		C41F43D41ED1C59600D9C599 /* MSConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F43D31ED1C59600D9C599 /* MSConst.m */; };
 		C41F43D71ED1C60600D9C599 /* MSMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F43D61ED1C60600D9C599 /* MSMeFooterView.m */; };
 		C41F43DA1ED1C65A00D9C599 /* MSMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F43D91ED1C65A00D9C599 /* MSMeSquare.m */; };
@@ -17,14 +18,27 @@
 		C42B2B7C1EBA1B990072ADE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B771EBA1B990072ADE2 /* AppDelegate.m */; };
 		C42B2B7E1EBA1B990072ADE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B791EBA1B990072ADE2 /* main.m */; };
 		C42B2B821EBA1BF30072ADE2 /* MSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B811EBA1BF30072ADE2 /* MSTabBarController.m */; };
-		C42B2B841EBA1CC50072ADE2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C42B2B831EBA1CC50072ADE2 /* Info.plist */; };
 		C42B2B9D1EBA209B0072ADE2 /* MSEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2B9C1EBA209B0072ADE2 /* MSEssenceViewController.m */; };
 		C42B2BA31EBA20B70072ADE2 /* MSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2BA21EBA20B70072ADE2 /* MSMeViewController.m */; };
 		C42B2BA61EBA20C50072ADE2 /* MSNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2BA51EBA20C50072ADE2 /* MSNewViewController.m */; };
 		C42B2BAC1EBA215C0072ADE2 /* MSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42B2BAB1EBA215C0072ADE2 /* MSNavigationController.m */; };
 		C44535FE1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C44535FD1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m */; };
+		C458A4851ED6677A003C9CE7 /* MSAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C458A4841ED6677A003C9CE7 /* MSAllViewController.m */; };
+		C458A4881ED667AB003C9CE7 /* MSVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C458A4871ED667AB003C9CE7 /* MSVideoViewController.m */; };
+		C458A48B1ED667BC003C9CE7 /* MSVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C458A48A1ED667BC003C9CE7 /* MSVoiceViewController.m */; };
+		C458A48E1ED667DA003C9CE7 /* MSPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C458A48D1ED667DA003C9CE7 /* MSPictureViewController.m */; };
+		C458A4911ED667E9003C9CE7 /* MSWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C458A4901ED667E9003C9CE7 /* MSWordViewController.m */; };
+		C458A4941ED68116003C9CE7 /* MSRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C458A4931ED68116003C9CE7 /* MSRefreshHeader.m */; };
+		C458A4971ED68250003C9CE7 /* MSTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = C458A4961ED68250003C9CE7 /* MSTopic.m */; };
+		C458A49A1ED682A2003C9CE7 /* MSRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C458A4991ED682A2003C9CE7 /* MSRefreshFooter.m */; };
 		C47BF0681ED2F70300A43B7F /* MSMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF0671ED2F70300A43B7F /* MSMeCell.m */; };
 		C47BF06B1ED2F7F500A43B7F /* MSMeSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF06A1ED2F7F500A43B7F /* MSMeSquareButton.m */; };
+		C47BF06E1ED2FC3200A43B7F /* MSMeWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF06D1ED2FC3200A43B7F /* MSMeWebViewController.m */; };
+		C47BF0701ED2FCC800A43B7F /* MSMeWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47BF06F1ED2FCC800A43B7F /* MSMeWebViewController.xib */; };
+		C47BF0731ED3006A00A43B7F /* MSClearCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF0721ED3006A00A43B7F /* MSClearCacheCell.m */; };
+		C47BF0771ED3007F00A43B7F /* MSOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF0751ED3007F00A43B7F /* MSOtherCell.m */; };
+		C47BF0781ED3007F00A43B7F /* MSOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47BF0761ED3007F00A43B7F /* MSOtherCell.xib */; };
+		C47BF07E1ED3037000A43B7F /* NSString+MSFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C47BF07D1ED3037000A43B7F /* NSString+MSFileSize.m */; };
 		C48FF5981EBB567300D67D0D /* MSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FF5971EBB567300D67D0D /* MSTabBar.m */; };
 		C48FF59F1EBB5DE100D67D0D /* UIView+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FF59E1EBB5DE100D67D0D /* UIView+MSExtension.m */; };
 		C48FF5A21EBB643C00D67D0D /* MSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48FF5A11EBB643C00D67D0D /* MSSettingViewController.m */; };
@@ -33,6 +47,7 @@
 		C4D0A7EC1EC1B6E200056F92 /* MSLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4D0A7EA1EC1B6E200056F92 /* MSLoginRegisterViewController.xib */; };
 		C4D0A7EF1EC1BAC800056F92 /* MSFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D0A7EE1EC1BAC800056F92 /* MSFollowViewController.m */; };
 		C4D0A7F21EC1BDCB00056F92 /* MSQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D0A7F11EC1BDCB00056F92 /* MSQuickLoginButton.m */; };
+		C4F7E38E1ED576880081DD0C /* MSTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F7E38D1ED576880081DD0C /* MSTitleButton.m */; };
 		C4FF4D121EC064DD00123DDB /* UIImage+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF4D111EC064DD00123DDB /* UIImage+MSExtension.m */; };
 		C4FF4D1C1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FF4D1B1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m */; };
 /* End PBXBuildFile section */
@@ -57,6 +72,7 @@
 /* Begin PBXFileReference section */
 		1F5B7CD5507C568471E62E55 /* Pods-MSShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSShare/Pods-MSShare.release.xcconfig"; sourceTree = "<group>"; };
 		A9B9C27CCCB8E0E165AA7393 /* libPods-MSShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C414F25B1ED6BC47002D0890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41F43D21ED1C59600D9C599 /* MSConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConst.h; sourceTree = "<group>"; };
 		C41F43D31ED1C59600D9C599 /* MSConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSConst.m; sourceTree = "<group>"; };
 		C41F43D51ED1C60600D9C599 /* MSMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMeFooterView.h; path = MSShare/Others/MSMeFooterView.h; sourceTree = SOURCE_ROOT; };
@@ -76,7 +92,6 @@
 		C42B2B791EBA1B990072ADE2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C42B2B801EBA1BF30072ADE2 /* MSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSTabBarController.h; path = ../MSTabBarController.h; sourceTree = "<group>"; };
 		C42B2B811EBA1BF30072ADE2 /* MSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSTabBarController.m; path = ../MSTabBarController.m; sourceTree = "<group>"; };
-		C42B2B831EBA1CC50072ADE2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C42B2B9B1EBA209B0072ADE2 /* MSEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEssenceViewController.h; sourceTree = "<group>"; };
 		C42B2B9C1EBA209B0072ADE2 /* MSEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEssenceViewController.m; sourceTree = "<group>"; };
 		C42B2BA11EBA20B70072ADE2 /* MSMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMeViewController.h; sourceTree = "<group>"; };
@@ -87,10 +102,36 @@
 		C42B2BAB1EBA215C0072ADE2 /* MSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSNavigationController.m; path = ../MSNavigationController.m; sourceTree = "<group>"; };
 		C44535FC1ECF2F0E00CDF75D /* MSLoginRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLoginRegisterTextField.h; sourceTree = "<group>"; };
 		C44535FD1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLoginRegisterTextField.m; sourceTree = "<group>"; };
+		C458A4831ED6677A003C9CE7 /* MSAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAllViewController.h; sourceTree = "<group>"; };
+		C458A4841ED6677A003C9CE7 /* MSAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAllViewController.m; sourceTree = "<group>"; };
+		C458A4861ED667AB003C9CE7 /* MSVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVideoViewController.h; sourceTree = "<group>"; };
+		C458A4871ED667AB003C9CE7 /* MSVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVideoViewController.m; sourceTree = "<group>"; };
+		C458A4891ED667BC003C9CE7 /* MSVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVoiceViewController.h; sourceTree = "<group>"; };
+		C458A48A1ED667BC003C9CE7 /* MSVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVoiceViewController.m; sourceTree = "<group>"; };
+		C458A48C1ED667DA003C9CE7 /* MSPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSPictureViewController.h; sourceTree = "<group>"; };
+		C458A48D1ED667DA003C9CE7 /* MSPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSPictureViewController.m; sourceTree = "<group>"; };
+		C458A48F1ED667E9003C9CE7 /* MSWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWordViewController.h; sourceTree = "<group>"; };
+		C458A4901ED667E9003C9CE7 /* MSWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWordViewController.m; sourceTree = "<group>"; };
+		C458A4921ED68116003C9CE7 /* MSRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRefreshHeader.h; sourceTree = "<group>"; };
+		C458A4931ED68116003C9CE7 /* MSRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRefreshHeader.m; sourceTree = "<group>"; };
+		C458A4951ED68250003C9CE7 /* MSTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTopic.h; sourceTree = "<group>"; };
+		C458A4961ED68250003C9CE7 /* MSTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTopic.m; sourceTree = "<group>"; };
+		C458A4981ED682A2003C9CE7 /* MSRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRefreshFooter.h; sourceTree = "<group>"; };
+		C458A4991ED682A2003C9CE7 /* MSRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRefreshFooter.m; sourceTree = "<group>"; };
 		C47BF0661ED2F70300A43B7F /* MSMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMeCell.h; path = MSShare/Others/MSMeCell.h; sourceTree = SOURCE_ROOT; };
 		C47BF0671ED2F70300A43B7F /* MSMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMeCell.m; path = MSShare/Others/MSMeCell.m; sourceTree = SOURCE_ROOT; };
 		C47BF0691ED2F7F500A43B7F /* MSMeSquareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMeSquareButton.h; path = MSShare/Others/MSMeSquareButton.h; sourceTree = SOURCE_ROOT; };
 		C47BF06A1ED2F7F500A43B7F /* MSMeSquareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMeSquareButton.m; path = MSShare/Others/MSMeSquareButton.m; sourceTree = SOURCE_ROOT; };
+		C47BF06C1ED2FC3200A43B7F /* MSMeWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMeWebViewController.h; sourceTree = "<group>"; };
+		C47BF06D1ED2FC3200A43B7F /* MSMeWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMeWebViewController.m; sourceTree = "<group>"; };
+		C47BF06F1ED2FCC800A43B7F /* MSMeWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSMeWebViewController.xib; sourceTree = "<group>"; };
+		C47BF0711ED3006A00A43B7F /* MSClearCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSClearCacheCell.h; path = MSShare/Classes/Me/Controller/MSClearCacheCell.h; sourceTree = SOURCE_ROOT; };
+		C47BF0721ED3006A00A43B7F /* MSClearCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSClearCacheCell.m; path = MSShare/Classes/Me/Controller/MSClearCacheCell.m; sourceTree = SOURCE_ROOT; };
+		C47BF0741ED3007F00A43B7F /* MSOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSOtherCell.h; path = MSShare/Classes/Me/Controller/MSOtherCell.h; sourceTree = SOURCE_ROOT; };
+		C47BF0751ED3007F00A43B7F /* MSOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSOtherCell.m; path = MSShare/Classes/Me/Controller/MSOtherCell.m; sourceTree = SOURCE_ROOT; };
+		C47BF0761ED3007F00A43B7F /* MSOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MSOtherCell.xib; path = MSShare/Classes/Me/Controller/MSOtherCell.xib; sourceTree = SOURCE_ROOT; };
+		C47BF07C1ED3037000A43B7F /* NSString+MSFileSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MSFileSize.h"; sourceTree = "<group>"; };
+		C47BF07D1ED3037000A43B7F /* NSString+MSFileSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MSFileSize.m"; sourceTree = "<group>"; };
 		C48FF5921EBB4B6900D67D0D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C48FF5961EBB567300D67D0D /* MSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTabBar.h; sourceTree = "<group>"; };
 		C48FF5971EBB567300D67D0D /* MSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTabBar.m; sourceTree = "<group>"; };
@@ -107,6 +148,8 @@
 		C4D0A7EE1EC1BAC800056F92 /* MSFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFollowViewController.m; sourceTree = "<group>"; };
 		C4D0A7F01EC1BDCB00056F92 /* MSQuickLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSQuickLoginButton.h; sourceTree = "<group>"; };
 		C4D0A7F11EC1BDCB00056F92 /* MSQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSQuickLoginButton.m; sourceTree = "<group>"; };
+		C4F7E38C1ED576880081DD0C /* MSTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTitleButton.h; sourceTree = "<group>"; };
+		C4F7E38D1ED576880081DD0C /* MSTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTitleButton.m; sourceTree = "<group>"; };
 		C4FF4D101EC064DD00123DDB /* UIImage+MSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MSExtension.h"; sourceTree = "<group>"; };
 		C4FF4D111EC064DD00123DDB /* UIImage+MSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MSExtension.m"; sourceTree = "<group>"; };
 		C4FF4D1A1EC06B7600123DDB /* UIBarButtonItem+MSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MSExtension.h"; sourceTree = "<group>"; };
@@ -236,8 +279,8 @@
 				C48FF5951EBB4F9F00D67D0D /* View */,
 				C42B2B761EBA1B990072ADE2 /* AppDelegate.h */,
 				C42B2B771EBA1B990072ADE2 /* AppDelegate.m */,
+				C414F25B1ED6BC47002D0890 /* Info.plist */,
 				C42B2B791EBA1B990072ADE2 /* main.m */,
-				C42B2B831EBA1CC50072ADE2 /* Info.plist */,
 				C48FF5921EBB4B6900D67D0D /* PrefixHeader.pch */,
 				C41F43D21ED1C59600D9C599 /* MSConst.h */,
 				C41F43D31ED1C59600D9C599 /* MSConst.m */,
@@ -249,8 +292,8 @@
 			isa = PBXGroup;
 			children = (
 				C42B2B881EBA20000072ADE2 /* Controller */,
-				C42B2B891EBA20000072ADE2 /* Model */,
-				C42B2B8A1EBA20000072ADE2 /* View */,
+				C4F7E38A1ED5765D0081DD0C /* Model */,
+				C4F7E38B1ED5765D0081DD0C /* View */,
 			);
 			path = Essence;
 			sourceTree = "<group>";
@@ -260,22 +303,18 @@
 			children = (
 				C42B2B9B1EBA209B0072ADE2 /* MSEssenceViewController.h */,
 				C42B2B9C1EBA209B0072ADE2 /* MSEssenceViewController.m */,
+				C458A4831ED6677A003C9CE7 /* MSAllViewController.h */,
+				C458A4841ED6677A003C9CE7 /* MSAllViewController.m */,
+				C458A4861ED667AB003C9CE7 /* MSVideoViewController.h */,
+				C458A4871ED667AB003C9CE7 /* MSVideoViewController.m */,
+				C458A4891ED667BC003C9CE7 /* MSVoiceViewController.h */,
+				C458A48A1ED667BC003C9CE7 /* MSVoiceViewController.m */,
+				C458A48C1ED667DA003C9CE7 /* MSPictureViewController.h */,
+				C458A48D1ED667DA003C9CE7 /* MSPictureViewController.m */,
+				C458A48F1ED667E9003C9CE7 /* MSWordViewController.h */,
+				C458A4901ED667E9003C9CE7 /* MSWordViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		C42B2B891EBA20000072ADE2 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C42B2B8A1EBA20000072ADE2 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		C42B2B8B1EBA20000072ADE2 /* Follow */ = {
@@ -330,6 +369,9 @@
 				C42B2BA21EBA20B70072ADE2 /* MSMeViewController.m */,
 				C48FF5A01EBB643C00D67D0D /* MSSettingViewController.h */,
 				C48FF5A11EBB643C00D67D0D /* MSSettingViewController.m */,
+				C47BF06C1ED2FC3200A43B7F /* MSMeWebViewController.h */,
+				C47BF06D1ED2FC3200A43B7F /* MSMeWebViewController.m */,
+				C47BF06F1ED2FCC800A43B7F /* MSMeWebViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -352,6 +394,11 @@
 				C41F43D61ED1C60600D9C599 /* MSMeFooterView.m */,
 				C47BF0691ED2F7F500A43B7F /* MSMeSquareButton.h */,
 				C47BF06A1ED2F7F500A43B7F /* MSMeSquareButton.m */,
+				C47BF0711ED3006A00A43B7F /* MSClearCacheCell.h */,
+				C47BF0721ED3006A00A43B7F /* MSClearCacheCell.m */,
+				C47BF0741ED3007F00A43B7F /* MSOtherCell.h */,
+				C47BF0751ED3007F00A43B7F /* MSOtherCell.m */,
+				C47BF0761ED3007F00A43B7F /* MSOtherCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -450,6 +497,10 @@
 				C4D0A7F11EC1BDCB00056F92 /* MSQuickLoginButton.m */,
 				C44535FC1ECF2F0E00CDF75D /* MSLoginRegisterTextField.h */,
 				C44535FD1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m */,
+				C458A4921ED68116003C9CE7 /* MSRefreshHeader.h */,
+				C458A4931ED68116003C9CE7 /* MSRefreshHeader.m */,
+				C458A4981ED682A2003C9CE7 /* MSRefreshFooter.h */,
+				C458A4991ED682A2003C9CE7 /* MSRefreshFooter.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -463,8 +514,28 @@
 				C4FF4D111EC064DD00123DDB /* UIImage+MSExtension.m */,
 				C4FF4D1A1EC06B7600123DDB /* UIBarButtonItem+MSExtension.h */,
 				C4FF4D1B1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m */,
+				C47BF07C1ED3037000A43B7F /* NSString+MSFileSize.h */,
+				C47BF07D1ED3037000A43B7F /* NSString+MSFileSize.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		C4F7E38A1ED5765D0081DD0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C458A4951ED68250003C9CE7 /* MSTopic.h */,
+				C458A4961ED68250003C9CE7 /* MSTopic.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4F7E38B1ED5765D0081DD0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4F7E38C1ED576880081DD0C /* MSTitleButton.h */,
+				C4F7E38D1ED576880081DD0C /* MSTitleButton.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -581,8 +652,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4D0A7EC1EC1B6E200056F92 /* MSLoginRegisterViewController.xib in Resources */,
+				C47BF0781ED3007F00A43B7F /* MSOtherCell.xib in Resources */,
 				C42B2B4E1EBA1B2B0072ADE2 /* Assets.xcassets in Resources */,
-				C42B2B841EBA1CC50072ADE2 /* Info.plist in Resources */,
+				C414F25C1ED6BC47002D0890 /* Info.plist in Resources */,
+				C47BF0701ED2FCC800A43B7F /* MSMeWebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,28 +728,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C458A4851ED6677A003C9CE7 /* MSAllViewController.m in Sources */,
 				C42B2BA31EBA20B70072ADE2 /* MSMeViewController.m in Sources */,
 				C4D0A7F21EC1BDCB00056F92 /* MSQuickLoginButton.m in Sources */,
 				C48FF59F1EBB5DE100D67D0D /* UIView+MSExtension.m in Sources */,
 				C48FF5A21EBB643C00D67D0D /* MSSettingViewController.m in Sources */,
 				C42B2B7E1EBA1B990072ADE2 /* main.m in Sources */,
 				C42B2B9D1EBA209B0072ADE2 /* MSEssenceViewController.m in Sources */,
+				C458A48B1ED667BC003C9CE7 /* MSVoiceViewController.m in Sources */,
+				C4F7E38E1ED576880081DD0C /* MSTitleButton.m in Sources */,
 				C4D0A7E71EC1B43600056F92 /* MSRecommandViewController.m in Sources */,
 				C41F43D71ED1C60600D9C599 /* MSMeFooterView.m in Sources */,
 				C41F43D41ED1C59600D9C599 /* MSConst.m in Sources */,
+				C458A4911ED667E9003C9CE7 /* MSWordViewController.m in Sources */,
 				C4D0A7EB1EC1B6E200056F92 /* MSLoginRegisterViewController.m in Sources */,
 				C4FF4D121EC064DD00123DDB /* UIImage+MSExtension.m in Sources */,
 				C44535FE1ECF2F0E00CDF75D /* MSLoginRegisterTextField.m in Sources */,
+				C458A49A1ED682A2003C9CE7 /* MSRefreshFooter.m in Sources */,
 				C42B2BA61EBA20C50072ADE2 /* MSNewViewController.m in Sources */,
+				C458A4941ED68116003C9CE7 /* MSRefreshHeader.m in Sources */,
 				C48FF5981EBB567300D67D0D /* MSTabBar.m in Sources */,
+				C47BF07E1ED3037000A43B7F /* NSString+MSFileSize.m in Sources */,
 				C41F43DA1ED1C65A00D9C599 /* MSMeSquare.m in Sources */,
 				C42B2B821EBA1BF30072ADE2 /* MSTabBarController.m in Sources */,
+				C458A48E1ED667DA003C9CE7 /* MSPictureViewController.m in Sources */,
+				C47BF0731ED3006A00A43B7F /* MSClearCacheCell.m in Sources */,
 				C42B2BAC1EBA215C0072ADE2 /* MSNavigationController.m in Sources */,
 				C47BF0681ED2F70300A43B7F /* MSMeCell.m in Sources */,
+				C47BF0771ED3007F00A43B7F /* MSOtherCell.m in Sources */,
 				C4D0A7EF1EC1BAC800056F92 /* MSFollowViewController.m in Sources */,
+				C458A4881ED667AB003C9CE7 /* MSVideoViewController.m in Sources */,
 				C42B2B7C1EBA1B990072ADE2 /* AppDelegate.m in Sources */,
+				C47BF06E1ED2FC3200A43B7F /* MSMeWebViewController.m in Sources */,
 				C47BF06B1ED2F7F500A43B7F /* MSMeSquareButton.m in Sources */,
 				C4FF4D1C1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m in Sources */,
+				C458A4971ED68250003C9CE7 /* MSTopic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
