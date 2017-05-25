@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		26C2118E8E6E3091BDF98800 /* libPods-MSShare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B9C27CCCB8E0E165AA7393 /* libPods-MSShare.a */; };
 		C414F25C1ED6BC47002D0890 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C414F25B1ED6BC47002D0890 /* Info.plist */; };
+		C414F2671ED6CC9F002D0890 /* MSTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C414F2651ED6CC9F002D0890 /* MSTopicCell.m */; };
+		C414F2681ED6CC9F002D0890 /* MSTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C414F2661ED6CC9F002D0890 /* MSTopicCell.xib */; };
+		C414F26B1ED6D367002D0890 /* NSDate+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C414F26A1ED6D367002D0890 /* NSDate+MSExtension.m */; };
+		C414F26E1ED6D3C5002D0890 /* NSCalendar+MSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C414F26D1ED6D3C5002D0890 /* NSCalendar+MSExtension.m */; };
 		C41F43D41ED1C59600D9C599 /* MSConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F43D31ED1C59600D9C599 /* MSConst.m */; };
 		C41F43D71ED1C60600D9C599 /* MSMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F43D61ED1C60600D9C599 /* MSMeFooterView.m */; };
 		C41F43DA1ED1C65A00D9C599 /* MSMeSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = C41F43D91ED1C65A00D9C599 /* MSMeSquare.m */; };
@@ -73,6 +77,13 @@
 		1F5B7CD5507C568471E62E55 /* Pods-MSShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSShare/Pods-MSShare.release.xcconfig"; sourceTree = "<group>"; };
 		A9B9C27CCCB8E0E165AA7393 /* libPods-MSShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C414F25B1ED6BC47002D0890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C414F2641ED6CC9F002D0890 /* MSTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTopicCell.h; sourceTree = "<group>"; };
+		C414F2651ED6CC9F002D0890 /* MSTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTopicCell.m; sourceTree = "<group>"; };
+		C414F2661ED6CC9F002D0890 /* MSTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSTopicCell.xib; sourceTree = "<group>"; };
+		C414F2691ED6D367002D0890 /* NSDate+MSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MSExtension.h"; sourceTree = "<group>"; };
+		C414F26A1ED6D367002D0890 /* NSDate+MSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MSExtension.m"; sourceTree = "<group>"; };
+		C414F26C1ED6D3C5002D0890 /* NSCalendar+MSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+MSExtension.h"; sourceTree = "<group>"; };
+		C414F26D1ED6D3C5002D0890 /* NSCalendar+MSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+MSExtension.m"; sourceTree = "<group>"; };
 		C41F43D21ED1C59600D9C599 /* MSConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSConst.h; sourceTree = "<group>"; };
 		C41F43D31ED1C59600D9C599 /* MSConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSConst.m; sourceTree = "<group>"; };
 		C41F43D51ED1C60600D9C599 /* MSMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMeFooterView.h; path = MSShare/Others/MSMeFooterView.h; sourceTree = SOURCE_ROOT; };
@@ -516,6 +527,10 @@
 				C4FF4D1B1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m */,
 				C47BF07C1ED3037000A43B7F /* NSString+MSFileSize.h */,
 				C47BF07D1ED3037000A43B7F /* NSString+MSFileSize.m */,
+				C414F2691ED6D367002D0890 /* NSDate+MSExtension.h */,
+				C414F26A1ED6D367002D0890 /* NSDate+MSExtension.m */,
+				C414F26C1ED6D3C5002D0890 /* NSCalendar+MSExtension.h */,
+				C414F26D1ED6D3C5002D0890 /* NSCalendar+MSExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -534,6 +549,9 @@
 			children = (
 				C4F7E38C1ED576880081DD0C /* MSTitleButton.h */,
 				C4F7E38D1ED576880081DD0C /* MSTitleButton.m */,
+				C414F2641ED6CC9F002D0890 /* MSTopicCell.h */,
+				C414F2651ED6CC9F002D0890 /* MSTopicCell.m */,
+				C414F2661ED6CC9F002D0890 /* MSTopicCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -653,6 +671,7 @@
 			files = (
 				C4D0A7EC1EC1B6E200056F92 /* MSLoginRegisterViewController.xib in Resources */,
 				C47BF0781ED3007F00A43B7F /* MSOtherCell.xib in Resources */,
+				C414F2681ED6CC9F002D0890 /* MSTopicCell.xib in Resources */,
 				C42B2B4E1EBA1B2B0072ADE2 /* Assets.xcassets in Resources */,
 				C414F25C1ED6BC47002D0890 /* Info.plist in Resources */,
 				C47BF0701ED2FCC800A43B7F /* MSMeWebViewController.xib in Resources */,
@@ -728,6 +747,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C414F26E1ED6D3C5002D0890 /* NSCalendar+MSExtension.m in Sources */,
 				C458A4851ED6677A003C9CE7 /* MSAllViewController.m in Sources */,
 				C42B2BA31EBA20B70072ADE2 /* MSMeViewController.m in Sources */,
 				C4D0A7F21EC1BDCB00056F92 /* MSQuickLoginButton.m in Sources */,
@@ -756,11 +776,13 @@
 				C42B2BAC1EBA215C0072ADE2 /* MSNavigationController.m in Sources */,
 				C47BF0681ED2F70300A43B7F /* MSMeCell.m in Sources */,
 				C47BF0771ED3007F00A43B7F /* MSOtherCell.m in Sources */,
+				C414F2671ED6CC9F002D0890 /* MSTopicCell.m in Sources */,
 				C4D0A7EF1EC1BAC800056F92 /* MSFollowViewController.m in Sources */,
 				C458A4881ED667AB003C9CE7 /* MSVideoViewController.m in Sources */,
 				C42B2B7C1EBA1B990072ADE2 /* AppDelegate.m in Sources */,
 				C47BF06E1ED2FC3200A43B7F /* MSMeWebViewController.m in Sources */,
 				C47BF06B1ED2F7F500A43B7F /* MSMeSquareButton.m in Sources */,
+				C414F26B1ED6D367002D0890 /* NSDate+MSExtension.m in Sources */,
 				C4FF4D1C1EC06B7600123DDB /* UIBarButtonItem+MSExtension.m in Sources */,
 				C458A4971ED68250003C9CE7 /* MSTopic.m in Sources */,
 			);
