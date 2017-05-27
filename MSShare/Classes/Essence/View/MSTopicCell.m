@@ -6,7 +6,12 @@
 //
 #import "MSTopicCell.h"
 #import "MSTopic.h"
+#import "MSUser.h"
+#import "MSComment.h"
 #import <UIImageView+WebCache.h>
+#import "MSTopicVideoView.h"
+#import "MSTopicVoiceView.h"
+#import "MSTopicPictureView.h"
 
 @interface MSTopicCell()
 @property (weak, nonatomic) IBOutlet UIImageView *profileImageView;
@@ -20,9 +25,47 @@
 /** 最热评论-整体 */
 @property (weak, nonatomic) IBOutlet UIView *topCmtView;
 @property (weak, nonatomic) IBOutlet UILabel *topCmtContentLabel;
+/* 中间控件 */
+/** 图片控件 */
+@property (nonatomic, weak) MSTopicPictureView *pictureView;
+/** 声音控件 */
+@property (nonatomic, weak) MSTopicVoiceView *voiceView;
+/** 视频控件 */
+@property (nonatomic, weak) MSTopicVideoView *videoView;
 @end
 
 @implementation MSTopicCell
+#pragma mark - 懒加载
+- (MSTopicPictureView *)pictureView
+{
+    if (!_pictureView) {
+        MSTopicPictureView *pictureView = [MSTopicPictureView viewFromXib];
+        [self.contentView addSubview:pictureView];
+        _pictureView = pictureView;
+    }
+    return _pictureView;
+}
+
+- (MSTopicVoiceView *)voiceView
+{
+    if (!_voiceView) {
+        MSTopicVoiceView *voiceView = [MSTopicVoiceView viewFromXib];
+        [self.contentView addSubview:voiceView];
+        _voiceView = voiceView;
+    }
+    return _voiceView;
+}
+
+- (MSTopicVideoView *)videoView
+{
+    if (!_videoView) {
+        MSTopicVideoView *videoView = [MSTopicVideoView viewFromXib];
+        [self.contentView addSubview:videoView];
+        _videoView = videoView;
+    }
+    return _videoView;
+}
+
 - (IBAction)more {
     UIAlertController *controller = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
     
@@ -77,15 +120,43 @@
     // 最热评论 不能用if (topic.top_cmt)
     // if (topic.top_cmt.count) { // 有最热评论
     
-    NSDictionary *comment = topic.top_cmt.firstObject;
-    if (comment) { // 有最热评论
+    if (topic.top_cmt) { // 有最热评论
         self.topCmtView.hidden = NO;
         
-        NSString *username = comment[@"user"][@"username"]; // 用户名
-        NSString *content = comment[@"content"]; // 评论内容
+        NSString *username = topic.top_cmt.user.username; // 用户名
+        NSString *content = topic.top_cmt.content; // 评论内容
         self.topCmtContentLabel.text = [NSString stringWithFormat:@"%@ : %@", username, content];
     } else { // 没有最热评论
         self.topCmtView.hidden = YES;
+    }
+    
+    // 中间内容
+#pragma mark - 根据MSTopic模型数据的情况来决定中间添加什么控件(内容)
+    if (topic.type == MSTopicTypeVideo) { // 视频
+        self.videoView.hidden = NO;
+        self.videoView.frame = topic.contentF;
+        self.videoView.topic = topic;
+        
+        self.voiceView.hidden = YES;
+        self.pictureView.hidden = YES;
+    } else if (topic.type == MSTopicTypeVoice) { // 音频
+        self.voiceView.hidden = NO;
+        self.voiceView.frame = topic.contentF;
+        self.voiceView.topic = topic;
+        
+        self.videoView.hidden = YES;
+        self.pictureView.hidden = YES;
+    } else if (topic.type == MSTopicTypeWord) { // 段子
+        self.videoView.hidden = YES;
+        self.voiceView.hidden = YES;
+        self.pictureView.hidden = YES;
+    } else if (topic.type == MSTopicTypePicture) { // 图片
+        self.pictureView.hidden = NO;
+        self.pictureView.frame = topic.contentF;
+        self.pictureView.topic = topic;
+        
+        self.videoView.hidden = YES;
+        self.voiceView.hidden = YES;
     }
 }
 

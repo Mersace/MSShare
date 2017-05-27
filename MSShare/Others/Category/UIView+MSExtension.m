@@ -115,4 +115,9 @@
 {
     self.ms_y = ms_bottom - self.ms_height;
 }
++ (instancetype)viewFromXib
+{
+    return [[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil].lastObject;
+}
+
 @end

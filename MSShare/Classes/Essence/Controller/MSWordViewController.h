@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Ashscar. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MSTopicViewController.h"
 
-@interface MSWordViewController : UITableViewController
+@interface MSWordViewController : MSTopicViewController
 
 @end

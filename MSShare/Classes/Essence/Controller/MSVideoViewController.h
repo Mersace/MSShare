@@ -6,8 +6,9 @@
 //  Copyright © 2017年 Ashscar. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MSTopicViewController.h"
 
-@interface MSVideoViewController : UITableViewController
+@interface MSVideoViewController : MSTopicViewController
+
 
 @end

@@ -19,4 +19,5 @@
 
 @property (nonatomic, assign) CGFloat ms_right;
 @property (nonatomic, assign) CGFloat ms_bottom;
++ (instancetype)viewFromXib;
 @end

@@ -6,8 +6,8 @@
 //  Copyright © 2017年 Ashscar. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MSEssenceViewController.h"
 
-@interface MSNewViewController : UIViewController
+@interface MSNewViewController : MSEssenceViewController
 
 @end
